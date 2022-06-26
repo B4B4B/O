@@ -47,7 +47,7 @@ def masg(call):
 	
 	global nam
 	
-	if call.data =="E_4_1":
+	if call.data =="S_Y_W":
 		
 		mas = types.InlineKeyboardMarkup(row_width=2)
 		
@@ -98,7 +98,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{h}\n------------─ ♰♰♰ ♰------------─\n• ‹ ♰ مطور تگسن  @E_4_1 ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{h}\n------------─ ♰♰♰ ♰------------─\n• ‹ ♰ مطور تگسن  @S_Y_W ♰  ›")
 				
 			else:
 				cp+=1
@@ -146,7 +146,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{li}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @E_4_1 ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{li}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @S_Y_W ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -183,7 +183,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @E_4_1 ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @S_Y_W ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -221,7 +221,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @E_4_1 ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @S_Y_W ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -259,7 +259,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @E_4_1 ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @S_Y_W ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -297,7 +297,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @E_4_1 ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{username}\n------------─ ♰♰♰ ♰------------─\n ‹ ♰  ‹ ♰ مطور تگسن @S_Y_W ♰  › ♰  ›")
 				
 			else:
 				cp+=1
@@ -341,7 +341,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"♰‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{j}\n------------─ ♰♰♰\n ‹ ♰  ‹ ♰ مطور تگسن @E_4_1 ♰  › ♰  ›")
+				bot.send_message(call.message.chat.id,f"♰‹ يوزر تلي متاح ®\n------------─ ♰♰♰ ♰------------─\n‹ صدتلك يوزر : @{j}\n------------─ ♰♰♰\n ‹ ♰  ‹ ♰ مطور تگسن @S_Y_W ♰  › ♰  ›")
 				
 			else:
 				cp+=1
