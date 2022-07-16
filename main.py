@@ -42,10 +42,10 @@ ___________________________________
     F = types.InlineKeyboardButton(text ="(9UUUUU)", callback_data="F7")
     
     M = types.InlineKeyboardButton(' ‹  ♰ قناة المطور ♰  ›', url='https://t.me/N1111V')
-    mas.add(us0,us3,us4)
-        mas.add(us2,us1,us6)
-        mas.add(us5,us8,us7)
-        mas.add(h7am0)
+    mas.add(A,E,K)
+        mas.add(J,I,O)
+        mas.add(F,M)
+        mas.add(A,E,K)
         bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
