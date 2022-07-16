@@ -46,7 +46,7 @@ ___________________________________
     mas.add(J,I,O)
     mas.add(F,M)
     mas.add(A,E,K)
-         bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
+    bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
         mas.add(A,E,K,J,I,O,F)
