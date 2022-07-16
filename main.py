@@ -13,7 +13,15 @@ logger.setLevel(logging.DEBUG)
 
 
 @bot.message_handler(commands=['start'])
-def boten(message):
+def start_message(message):
+    first = message.from_user.first_name
+    url = 'https://t.me/N1111V/3'
+    bot.send_animation((message.chat.id), url, caption=f"""اهلا {first}
+    بُكَ فِيُ بُۅتِ صِيُډ يُۅࢪِ࣪ࢪاެتِ تِيُݪيُجَࢪاެمِ
+اެݪبُۅتِ مِډفِۅعٰ ۅݪيُسُ مِجَاެنِيُ اެضِغِطَ /TXN
+ݪكَيُ اެتِحِقِقِ هَݪ اެنِتِ مِشِتِࢪكَ فِيُ اެݪبُۅتِ ❤️‍🔥
+___________________________________
+اެنِ كَنِتِ ݪسُتِ مِشِتِࢪكَ ࢪاެسُݪ اެݪمِطَۅࢪ @E_4_1 ݪكَيُ يُفِعٰݪ ݪكَ اެݪاެشِتِࢪاެكَ بُمِقِاެبُݪ بُسُيُطَ جَډاެ ❤️‍🔥""", reply_to_message_id=(message.message_id))
 	
     
     
@@ -34,7 +42,21 @@ def boten(message):
     F = types.InlineKeyboardButton(text ="(9UUUUU)", callback_data="F7")
     
     M = types.InlineKeyboardButton(' ‹  ♰ قناة المطور ♰  ›', url='https://t.me/N1111V')
-    
+    mas.add(us0,us3,us4)
+        mas.add(us2,us1,us6)
+        mas.add(us5,us8,us7)
+        mas.add(h7am0)
+        bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
+    else:
+        mas = types.InlineKeyboardMarkup(row_width=1)
+        mas.add(A,E,K,J,I,O,F)
+        mas.add(M)
+        bot.reply_to(message, '''اسف يروحي انت ما مشترك بلبوت
+للتفعيل اسبوع في البوت مقابل 2 ارقام تليجرام
+تريد تفعل اسبوعين 3 ارقم تليجرام
+تريد تفعل شهر 5 ارقام تليجرام
+اقبل مقابلات أي شي فقط تواصل @E_4_1''', reply_markup=mas)
+
     mas.add(A,E,K,J,I,O,F)
     mas.add(M)
     
@@ -367,5 +389,5 @@ def redirect_message():
 
 if __name__ == "__main__":
     bot.remove_webhook()
-    bot.set_webhook(url="https://hosenttt.herokuapp.com/"+str(BOT_TOKEN))
+    bot.set_webhook(url="https://sedthon1299.herokuapp.com/"+str(BOT_TOKEN))
     server.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
