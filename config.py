@@ -1,2 +1,2 @@
-BOT_TOKEN = "5349457334:AAGdCe2-EiVm0z8HbYWAVcKBuzky2wBC4t0"
-APP_URL = "https://sedthon1992.herokuapp.com/" + BOT_TOKEN
+BOT_TOKEN = "5504727772:AAEqNEoYnF0we0qbhC-Pm6Dr4uCewfZ2DxU"
+APP_URL = "https://sedthon1299.herokuapp.com/" + BOT_TOKEN
