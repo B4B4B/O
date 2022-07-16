@@ -43,10 +43,10 @@ ___________________________________
     
     M = types.InlineKeyboardButton(' ‹  ♰ قناة المطور ♰  ›', url='https://t.me/N1111V')
     mas.add(A,E,K)
-        mas.add(J,I,O)
-        mas.add(F,M)
-        mas.add(A,E,K)
-        bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
+    mas.add(J,I,O)
+    mas.add(F,M)
+    mas.add(A,E,K)
+         bot.reply_to(message, text='اެخِتِاެࢪ شِنِۅ تِࢪيُډ حِبُ', reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
         mas.add(A,E,K,J,I,O,F)
